@@ -1,0 +1,4 @@
+1. Server termial : jupyter notebook --config=jupyter_config.py
+
+2. port report(local termial): 
+ssh -L 4000:localhost:8888 10.108.12.154 -p 22 -u haojie
