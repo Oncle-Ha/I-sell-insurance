@@ -1,0 +1,11 @@
+server ip:10.108.12.154
+user: haojie
+password: haojie
+
+login:
+ssh haojie@10.108.12.154
+
+server: 
+jupyter  notebook --no-browser
+client: 
+ssh -N -f -L localhost:8888:localhost:8888 haojie@10.108.12.154
